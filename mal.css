@@ -44,7 +44,6 @@ tbody {
     font-weight: 900;
 }
 
-#list_surround table:first-of-type tbody {
-    display: block;
+#list_surround table:first-of-type {
     border: 1px solid black;
 }
