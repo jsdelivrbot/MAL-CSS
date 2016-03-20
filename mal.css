@@ -130,6 +130,16 @@ tbody {
     border-radius: 2px;
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
 td[align="center"][width="30"] {
     background-color: rgba(33, 52, 56, var(--transparent) );
     color: rgb(139,210,228);
@@ -138,6 +148,7 @@ td[align="center"][width="30"] {
 td[align="center"][width="30"] + td:hover {
     background-color: rgba(46, 65, 116, var(--transparent) );
     color: rgb(115,185,230);
+    animation: fadein 1s;
 }
 
 .table_header {
