@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+:root {
+    --transparent: .75;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-image: url("http://wall.rimbuz.com/wp-content/uploads/Anime-Scenery-Wallpaper-Amazings.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+tbody {
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, var(--transparent) );
+}
+
+.header_title {
+    font-size: 1.2em;
+    background-color: rgba(46, 81, 162, var(--transparent) );
+    color: #FFFFFF;
+}
+
+.category_totals {
+    color: rgba(127, 219, 255, 1);
+    background-color: rgba(0, 31, 63, var(--transparent) );
+}
+
+#mal\_control\_strip tbody {
+    background-color: initial;
+}
+
+#grand_totals {
+    background-color: rgba(35, 43, 43, var(--transparent) );
+    color: rgb(197, 54, 32);
+}
+
+.status_selected {
+    font-weight: 900;
+}
+
+#list_surround table:first-of-type tbody {
+    border: 1px solid black;
+}
