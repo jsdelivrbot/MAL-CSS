@@ -148,8 +148,6 @@ td[align="center"][width="30"] {
 
 tr:hover [class^=td] {
     animation: fadeinbg 1s;
-    background-color: rgba(46, 65, 116, var(--transparent) );
-    color: rgb(115,185,230);
 }
 
 .table_header {
