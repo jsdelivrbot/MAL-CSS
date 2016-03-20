@@ -126,6 +126,11 @@ tbody {
 }
 
 #list_surround .animetitle + small {
-    background-color: #62BFED;
+    background-color: rgba(98,191,237, var(--transparent) );
     border-radius: 2px;
+}
+
+td[align="center"][width="30"] {
+    background-color: rgba(33, 52, 56, var(--transparent) );
+    color: rgb(139,210,228);
 }
