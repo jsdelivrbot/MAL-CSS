@@ -41,8 +41,8 @@ tbody {
 }
 
 #grand_totals {
-    background-color: rgba(35, 43, 43, var(--transparent) );
-    color: rgb(197, 54, 32);
+    background-color: rgba(34,34,51, var(--transparent) );
+    color: #AACCFF;
 }
 
 .status_selected {
@@ -87,17 +87,17 @@ tbody {
     top: 0px !important;
     right: initial !important;
     margin-left: 358px;
+    width: 100%;
 }
 
 #mal_cs_powered a:nth-child(1) { 
     display: none;
-    width:100%;
 }
 
 #searchBox {
     box-sizing: border-box;
     height: 64px;
-    width: 100%;
+    width: 100% !important;
     color: var(--phcolor);
     font-size: 25px !important;
     border: 1px solid transparent;
@@ -116,5 +116,4 @@ tbody {
 
 #copyright {
     font-size: .5em;
-}
 }
