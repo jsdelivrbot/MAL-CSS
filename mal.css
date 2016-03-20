@@ -85,9 +85,9 @@ tbody {
 
 #mal_cs_powered {
     top: 0px !important;
-    right: initial !important;
+    right: 0 !important;
+    left: 0 !important;
     margin-left: 358px;
-    width: 100%;
 }
 
 #mal_cs_powered a:nth-child(1) { 
