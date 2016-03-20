@@ -91,11 +91,13 @@ tbody {
 
 #mal_cs_powered a:nth-child(1) { 
     display: none;
+    width:100%;
 }
 
 #searchBox {
     box-sizing: border-box;
     height: 64px;
+    width: 100%;
     color: var(--phcolor);
     font-size: 25px !important;
     border: 1px solid transparent;
