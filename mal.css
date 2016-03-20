@@ -158,3 +158,43 @@ tr:hover [class^=td] {
     background-color: rgba(27,67,118, var(--transparent) ) !important;
     color: rgb(182,182,215) !important;
 }
+
+
+#mal_cs_links a {
+    color: #000000 !important;
+}
+
+.animetitle:before {
+    content: "";
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    margin-top: 10px;
+    display:inline-block !important;
+    position: absolute;
+    background-size: contain;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animetitle:hover:before {
+    content: "";
+    margin-left: 200px;
+    margin-top: 10px;
+    padding-right: 150px;
+    padding-top: 220px !important;
+    background-color: transparent;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    animation: fadein 1s;
+}
+
