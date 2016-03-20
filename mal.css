@@ -16,6 +16,11 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
 }
 
 tbody {
@@ -123,13 +128,4 @@ tbody {
 #list_surround .animetitle + small {
     background-color: #62BFED;
     border-radius: 2px;
-}
-
-tr {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:visited {
-    color: inherit;
 }
