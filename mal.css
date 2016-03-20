@@ -119,3 +119,8 @@ tbody {
 #copyright {
     font-size: .5em;
 }
+
+#list_surround .animetitle + small {
+    background-color: #62BFED;
+    border-radius: 2px;
+}
