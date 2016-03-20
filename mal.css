@@ -141,11 +141,11 @@ tbody {
 }
 
 td[align="center"][width="30"] {
-    background-color: rgba(33, 52, 56, var(--transparent) );
-    color: rgb(139,210,228);
+    background-color: rgba(33, 52, 56, var(--transparent) ) !important;
+    color: rgb(139,210,228) !important;
 }
 
-tr:hover[class^=td] {
+tr:hover [class^=td] {
     animation: fadeinbg 1s;
     background-color: rgba(46, 65, 116, var(--transparent) );
     color: rgb(115,185,230);
