@@ -2,6 +2,7 @@
 
 :root {
     --transparent: .75;
+    --phcolor: rgba(179, 179, 204, .45);
 }
 
 body {
@@ -32,7 +33,7 @@ tbody {
 }
 
 #mal\_control\_strip tbody {
-    background-color: initial;
+    background-color: rgb(255, 255, 255);
 }
 
 #mal\_control\_strip {
@@ -50,4 +51,61 @@ tbody {
 
 #list_surround table:first-of-type {
     border: 3px solid black;
+}
+
+#copyright {
+    visibility: visible;
+}
+
+#mal_cs_otherlinks {
+    display: none;
+}
+
+#mal_cs_pic a img {
+    display: none;
+}
+
+#mal_cs_pic a {
+    display: block;
+    background: url(http://cdn.myanimelist.net/images/mal-logo-xsmall@2x.png?v=151027001) !important;
+    width: inherit;
+    height: inherit;
+    padding: inherit;
+}
+
+#mal_cs_pic {
+    width: 358px !important;
+    height: 64px !important;
+    padding: 0 !important;
+    background-color: rgba(255, 255, 255, 1);
+    border-right: initial !important;
+}
+
+#mal_cs_powered {
+    top: 0px !important;
+    right: 0px !important;
+}
+
+#mal_cs_powered a:nth-child(1) { 
+    display: none;
+}
+
+#searchBox {
+    box-sizing: border-box;
+    height: 64px;
+    width: 375px !important; 
+    color: var(--phcolor);
+    font-size: 25px !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+#search {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 64px;
+}
+
+#search img {
+    display: none;
 }
