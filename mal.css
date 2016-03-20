@@ -47,6 +47,7 @@ tbody {
 
 .status_selected {
     font-weight: 900;
+    font-size: 1.5em;
 }
 
 #list_surround table:first-of-type {
