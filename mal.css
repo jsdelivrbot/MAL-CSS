@@ -113,3 +113,8 @@ tbody {
 #search img {
     display: none;
 }
+
+#copyright {
+    font-size: .5em;
+}
+}
