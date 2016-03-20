@@ -126,6 +126,7 @@ tbody {
 }
 
 #list_surround .animetitle + small {
+    color: inherit !important;
     background-color: rgba(98,191,237, var(--transparent) );
     border-radius: 2px;
 }
