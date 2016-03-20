@@ -30,12 +30,14 @@ tbody {
 
 .header_title {
     font-size: 1.2em;
+    background-color: rgb(46, 81, 162);
     background-color: rgba(46, 81, 162, var(--transparent) );
     color: #FFFFFF;
 }
 
 .category_totals {
-    color: rgba(127, 219, 255, 1);
+    color: rgb(127, 219, 255);
+    background-color: rgb(0, 31, 63);
     background-color: rgba(0, 31, 63, var(--transparent) );
 }
 
@@ -48,6 +50,7 @@ tbody {
 }
 
 #grand_totals {
+    background-color: rgb(34,34,51);
     background-color: rgba(34,34,51, var(--transparent) );
     color: #AACCFF;
 }
@@ -85,7 +88,7 @@ tbody {
     width: 358px !important;
     height: 64px !important;
     padding: 0 !important;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     border-right: initial !important;
     float: left;
 }
@@ -105,6 +108,7 @@ tbody {
     box-sizing: border-box;
     height: 64px;
     width: 100% !important;
+    color: rgb(179, 179, 204);
     color: var(--phcolor);
     font-size: 25px !important;
     border: 1px solid transparent;
@@ -127,6 +131,7 @@ tbody {
 
 #list_surround .animetitle + small {
     color: inherit !important;
+    background-color: rgb(98, 191, 237);
     background-color: rgba(98,191,237, var(--transparent) );
     border-radius: 2px;
 }
@@ -138,23 +143,27 @@ tbody {
     }
     
     to {
+        background-color: rgb(46, 65, 116);
         background-color: rgba(46, 65, 116, var(--transparent) );
         color: rgb(115,185,230);
     }
 }
 
 td[align="center"][width="30"] {
+    background-color: rgb(33, 52, 56);
     background-color: rgba(33, 52, 56, var(--transparent) ) !important;
     color: rgb(139,210,228) !important;
 }
 
 tr:hover [class^=td] {
     animation: fadeinbg 1s;
+    background-color: rgb(46, 65, 116);
     background-color: rgba(46, 65, 116, var(--transparent) );
     color: rgb(115,185,230);
 }
 
 .table_header {
+    background-color: rgb(27, 67, 118);
     background-color: rgba(27,67,118, var(--transparent) ) !important;
     color: rgb(182,182,215) !important;
 }
