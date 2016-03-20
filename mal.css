@@ -85,7 +85,8 @@ tbody {
 
 #mal_cs_powered {
     top: 0px !important;
-    right: 0px !important;
+    right: initial !important;
+    margin-left: 358px;
 }
 
 #mal_cs_powered a:nth-child(1) { 
@@ -95,7 +96,6 @@ tbody {
 #searchBox {
     box-sizing: border-box;
     height: 64px;
-    margin-left: 358px;
     color: var(--phcolor);
     font-size: 25px !important;
     border: 1px solid transparent;
