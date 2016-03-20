@@ -35,6 +35,10 @@ tbody {
     background-color: initial;
 }
 
+#mal\_control\_strip {
+    background: initial;
+}
+
 #grand_totals {
     background-color: rgba(35, 43, 43, var(--transparent) );
     color: rgb(197, 54, 32);
