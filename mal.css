@@ -139,3 +139,8 @@ td[align="center"][width="30"] + td:hover {
     background-color: rgba(46, 65, 116, var(--transparent) );
     color: rgb(115,185,230);
 }
+
+.table_header {
+    background-color: rgba(27,67,118, var(--transparent) ) !important;
+    color: rgb(182,182,215) !important;
+}
