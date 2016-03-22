@@ -195,14 +195,14 @@ tr:hover [class^=td] {
 
 .animetitle:hover:before {
     content: "";
-    margin-left: 200px;
-    margin-top: 1.42em;
+    bottom: 0;
+    right: 0;
     padding-right: 150px;
     padding-top: 220px !important;
     background-color: transparent;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     animation: fadein 1s;
 }
