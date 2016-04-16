@@ -153,6 +153,7 @@ td[align="center"][width="30"] {
     background-color: rgb(33, 52, 56);
     background-color: rgba(33, 52, 56, var(--transparent) ) !important;
     color: rgb(139,210,228) !important;
+    animation: none !important;
 }
 
 tr:hover [class^=td] {
