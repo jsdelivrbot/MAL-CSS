@@ -144,7 +144,11 @@ tbody {
     
     to {
         background-color: rgb(46, 65, 116);
+        /*
+        until firefox gets its stuff together.
         background-color: rgba(46, 65, 116, var(--transparent) );
+        */
+        background-color: rgba(46, 65, 116, .75);
         color: rgb(115,185,230);
     }
 }
