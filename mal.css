@@ -60,6 +60,10 @@ tbody {
     font-size: 1.5em;
 }
 
+.status_not_selected, .status_selected {
+    line-height: 29.5px;
+}
+
 #list_surround table:first-of-type {
     border: 3px solid black;
 }
