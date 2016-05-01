@@ -61,7 +61,7 @@ tbody {
 }
 
 .status_not_selected, .status_selected {
-    line-height: 29.5px;
+    width: 16.66%;
 }
 
 #list_surround table:first-of-type {
