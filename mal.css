@@ -221,3 +221,7 @@ tr:hover [class^=td] {
     animation: fadein 1s;
 }
 
+#mal_control_strip {
+    height: 64px;
+}
+
