@@ -176,8 +176,10 @@ tr:hover [class^=td] {
     color: rgb(115,185,230);
 }
 
-div [id^=more] {
-    animation: none;
+div [id^=more] tr:hover [class^=td]{
+    animation: none !important;
+    background-color: inherit !important;
+    color: inherit !important;
 }
 
 .table_header {
