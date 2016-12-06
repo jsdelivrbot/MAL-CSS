@@ -176,6 +176,10 @@ tr:hover [class^=td] {
     color: rgb(115,185,230);
 }
 
+div [id^=more] {
+    animation: none;
+}
+
 .table_header {
     background-color: rgb(27, 67, 118);
     background-color: rgba(27,67,118, var(--transparent) ) !important;
