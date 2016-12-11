@@ -231,3 +231,6 @@ div [id^=more] tr:hover [class^=td]{
     height: 64px;
 }
 
+#list_surround .animetitle + small {
+    color: black !important;
+}
