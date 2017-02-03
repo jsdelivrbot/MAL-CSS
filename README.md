@@ -3,6 +3,6 @@ CSS Hosting for MAL imports
 
 ```
 For anime & manga:
-@import url("https://cdn.rawgit.com/wileyyugioh/MAL-CSS/ccd4765123d7393c2d3ac23c905b4a5aae555b31/mal.css");
+@import url("https://cdn.rawgit.com/wileyyugioh/MAL-CSS/c5b259a99d48b7445261518af457a3d306539660/mal.css")
 @import "https://malcat-gen.appspot.com/series?preset=animetitlebefore";
 ```
