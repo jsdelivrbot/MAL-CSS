@@ -82,7 +82,7 @@ tbody {
 
 #mal_cs_pic a {
     display: block;
-    background: url(http://cdn.myanimelist.net/images/mal-logo-xsmall@2x.png?v=151027001) !important;
+    background: url(https://myanimelist.cdn-dena.com/images/mal-logo-xsmall@2x.png) !important;
     width: inherit;
     height: inherit;
     padding: inherit;
